@@ -32,7 +32,7 @@ You can go to the playground(instead of /graphql, use /playground) and use the f
 ```graphql
 mutation invoke {
   invokeChaincode(input:{
-    chaincodeName:"template_node"
+    chaincodeName:"template_go"
     function: "InitLedger"
     args: []
     transientMap: []
@@ -45,7 +45,7 @@ mutation invoke {
 
 mutation query {
   queryChaincode(input:{
-    chaincodeName:"template_node"
+    chaincodeName:"template_go"
     function: "GetAllAssets"
     args: []
     transientMap: []
