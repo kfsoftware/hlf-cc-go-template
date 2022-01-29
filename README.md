@@ -2,7 +2,7 @@
 
 ### Start tunnel
 ```bash
-ngrok tcp 999
+ngrok tcp 9999
 ```
 
 ### Install, approve and commit chaincode
